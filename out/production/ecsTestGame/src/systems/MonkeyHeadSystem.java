@@ -18,12 +18,12 @@ import util.Mathf.Mathf3D.Vector3D;
 import java.util.Arrays;
 
 public class MonkeyHeadSystem extends GameSystem {
-    public final static String facePath = "C:\\Users\\domin\\Desktop\\3dModels\\downloaded/male_head_obj.obj";
-    public final static String monkeyHeadPath = "C:\\Users\\domin\\Desktop\\3dModels\\blender/monkeyNormalisedTriangulated.obj";
+    public final static String facePath = "res\\models/male_head_obj.obj";
+    public final static String monkeyHeadPath = "res\\models/monkeyNormalisedTriangulated.obj";
 
     //    public final static String texturePath = "C:\\Users\\domin\\OneDrive\\Documents\\projects\\ecsTestGame\\res/Wall.png";
 //    public final static String texturePath = "C:\\Users\\domin\\OneDrive\\Documents\\projects\\ecsTestGame\\res/Grass.png";
-    public final static String texturePath = "C:\\Users\\domin\\OneDrive\\Documents\\projects\\ecsTestGame\\res/Magic_Projectile.png";
+    public final static String texturePath = "res/Magic_Projectile.png";
 //    public final static String texturePath = "C:\\Users\\domin\\OneDrive\\Documents\\projects\\ecsTestGame\\res/Clock.png";
 
 

@@ -1,104 +1,47 @@
 package systems;
 
-import components.Camera;
+import Rendering.renderUtil.RenderState;
+import com.sun.org.apache.xerces.internal.parsers.AbstractXMLDocumentParser;
 import components.Component;
-import components.InputComponent;
-import components.Transform;
-import util.geometry.Matrix4x4;
-import util.geometry.RotationMatrixHolder;
-import util.geometry.TransformUtil;
-import util.geometry.Vector3D;
+import components.PlayerComponent;
+import components.TransformComponent;
+import core.EntityFactory;
+import core.coreSystems.EntitySystem;
+import core.coreSystems.GameSystem;
+import core.coreSystems.Time;
+import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
+import util.Mathf.Mathf3D.Quaternion;
+import util.Mathf.Mathf3D.Vector3D;
 
-import java.awt.event.KeyEvent;
 import java.util.Arrays;
 
 public class PlayerSystem extends GameSystem {
+    private PlayerMovement playerMovement;
+    private Vector3D axis = Vector3D.newUp();
 
-    public PlayerSystem(boolean addToUpdateList) {
-        super(Arrays.asList(Camera.class, Transform.class, InputComponent.class), addToUpdateList);
+    public PlayerSystem() {
+        super(Arrays.asList(PlayerComponent.class, TransformComponent.class));
+        playerMovement = new PlayerMovement();
+        createPlayer();
     }
 
     @Override
-    public void update(float deltaTime) {
-        for (int entityID : entityListner.getEntityIDsOfInterest()) {
-            int[] componentIndexs = entityListner.getComponentIndexsOfInterest().get(entityID);
-            Component[] components = entityListner.getComponentsOnEntity(entityID, componentIndexs);
-            Camera camera = (Camera) components[0];
-            Transform transform = (Transform) components[1];
-            InputComponent inputComponent = (InputComponent) components[2];
+    public void update() {
+        for (int entityID : entityGrabber.getEntityIDsOfInterest()) {
+            Component[] components = entityGrabber.getRelevantComponents(entityID);
+            TransformComponent transform = (TransformComponent) components[1];
 
-            updateTransforms(inputComponent, transform, deltaTime);
-            updateCamera(camera, transform);
-
+            playerMovement.updateTransforms(transform.transform);
         }
 
+        RenderState.lightingState.lightDir = Quaternion.angleAxis(
+                1f * Time.getDeltaTime(), axis).rotate(RenderState.lightingState.lightDir);
+//        axis = Quaternion.angleAxis(.5f * Time.getDeltaTime(), Vector3D.FORWARD).rotate(axis);
+//        RenderState.lightingState.lightDir.normalise();
     }
 
-
-    private void updateTransforms(InputComponent inputComponent, Transform transform, float deltaTime) {
-        Vector3D deltaVector = new Vector3D(0.0f, 0.0f, 0.0f);
-        float tx = 0.0f, ty = 0.0f, tz = 0.0f;
-        transform.fYaw = 0;
-
-        // rotate around Y
-        Matrix4x4 fYawM = Matrix4x4.newIdentityMatrix();
-        if (inputComponent.keysPressed[KeyEvent.VK_E]) {
-            transform.fYaw += 0.003;
-            fYawM = fYawM.compose(Matrix4x4.newYRotation(transform.fYaw));
-        }
-        if (inputComponent.keysPressed[KeyEvent.VK_Q]) {
-            transform.fYaw -= 0.003;
-            fYawM = fYawM.compose(Matrix4x4.newYRotation(transform.fYaw));
-        }
-
-        RotationMatrixHolder newRotation = new RotationMatrixHolder(transform.rotHolder.zRot, transform.rotHolder.xRot, fYawM);
-        Matrix4x4 rot = newRotation.compose();
-        TransformUtil.updateDirections(transform, rot);
-        transform.rotHolder.rotate(newRotation);
-
-        // up/down
-        if (inputComponent.keysPressed[KeyEvent.VK_W]) {
-
-            deltaVector = deltaVector.plus(transform.upDir.scale(0.11f));
-        }
-        if (inputComponent.keysPressed[KeyEvent.VK_S]) {
-            deltaVector = deltaVector.minus(transform.upDir.scale(0.11f));
-        }
-
-
-        // Strafe
-        if (inputComponent.keysPressed[KeyEvent.VK_A]) {
-            deltaVector = deltaVector.plus(transform.rightDir.scale(0.11f));
-
-        }
-        if (inputComponent.keysPressed[KeyEvent.VK_D]) {
-            deltaVector = deltaVector.minus(transform.rightDir.scale(0.11f));
-        }
-
-        // Forward/back
-        if (inputComponent.keysPressed[KeyEvent.VK_UP]) {
-            deltaVector = deltaVector.minus(transform.lookDir.scale(0.11f));
-        }
-        if (inputComponent.keysPressed[KeyEvent.VK_DOWN]) {
-            deltaVector = deltaVector.plus(transform.lookDir.scale(0.11f));
-        }
-
-
-        transform.translation = Matrix4x4.newTranslation(deltaVector.x, deltaVector.y, deltaVector.z);
-        transform.position = transform.translation.multiply4x4(transform.position, 1);
-
+    public void createPlayer() {
+        EntitySystem.getInstance().createEntity(Arrays.asList(new PlayerComponent(), new TransformComponent()));
     }
 
-    public void updateCamera(Camera camera, Transform transform) {
-        camera.lookDir = transform.lookDir;
-
-        /*Vector3D projection = transform.lookDir.scale(transform.upDir.dotProduct(transform.lookDir));
-        camera.upDir = transform.upDir.minus(projection).unit();*/
-
-        camera.upDir = transform.upDir;
-
-        camera.rightDir = transform.rightDir;
-
-        camera.position = transform.position;
-    }
 }

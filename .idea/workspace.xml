@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff0de4c3-ef58-468e-b00e-71176ed39cbe" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../ecsGameEngine/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../ecsGameEngine/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ecsTestGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ecsTestGame/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -44,22 +46,24 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="37" />
-          <entry key="java" value="51480" />
+          <entry key="java" value="51514" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="OBJ" value="1" />
           <entry key="class" value="10" />
           <entry key="classpath" value="1" />
           <entry key="groovy" value="1" />
-          <entry key="java" value="1571" />
+          <entry key="java" value="1574" />
+          <entry key="obj" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="51480" />
+          <entry key="JAVA" value="51514" />
           <entry key="PLAIN_TEXT" value="37" />
         </counts>
       </usages-collector>
@@ -67,7 +71,8 @@
         <counts>
           <entry key="CLASS" value="10" />
           <entry key="Eclipse" value="1" />
-          <entry key="JAVA" value="1571" />
+          <entry key="JAVA" value="1574" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
@@ -97,7 +102,7 @@
         <entry file="file://$PROJECT_DIR$/../ecsGameEngine/src/Rendering/renderUtil/Bitmaps/BitmapBGR.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#3830#3831#0" expanded="true" />
@@ -116,47 +121,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../ecsGameEngine/src/Rendering/renderUtil/Meshes/IndexedMesh.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="281">
-              <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+              <caret line="85" selection-start-line="85" selection-end-line="85" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ecsGameEngine/src/core/EntityFactory.java">
+        <entry file="file://$PROJECT_DIR$/src/components/PlayerComponent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ecsGameEngine/src/core/coreSystems/EntitySystem.java">
+        <entry file="file://$PROJECT_DIR$/src/components/MonkeyHead.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ecsGameEngine/src/core/coreSystems/GameSystem.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/systems/MonkeyHeadSystem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ecsGameEngine/src/core/coreSystems/ECSSystem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+            <state relative-caret-position="187">
+              <caret line="26" column="79" selection-start-line="26" selection-start-column="79" selection-end-line="26" selection-end-column="79" />
             </state>
           </provider>
         </entry>
@@ -244,7 +240,7 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../ecsGameEngine" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GroovyConsoleState">
     <option name="list">
@@ -260,7 +256,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/systems/PlayerSystem.java" />
         <option value="$PROJECT_DIR$/../ecsGameEngine/src/util/Mathf/Mathf3D/Matrix4x4.java" />
         <option value="$PROJECT_DIR$/../ecsGameEngine/src/util/Mathf/Mathf3D/Quaternion.java" />
         <option value="$PROJECT_DIR$/src/systems/PlayerMovement.java" />
@@ -311,6 +306,7 @@
         <option value="$PROJECT_DIR$/../ecsGameEngine/src/Rendering/renderingSystems/RenderSystem.java" />
         <option value="$PROJECT_DIR$/../ecsGameEngine/src/core/coreSystems/ECSSystem.java" />
         <option value="$PROJECT_DIR$/../ecsGameEngine/src/core/Window.java" />
+        <option value="$PROJECT_DIR$/src/systems/MonkeyHeadSystem.java" />
       </list>
     </option>
   </component>
@@ -362,204 +358,20 @@
             <path>
               <item name="ecsTestGame" type="b2602c69:ProjectViewProjectNode" />
               <item name="ecsTestGame" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="ecsGameEngine" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ecsTestGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecsTestGame" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="ecsGameEngine" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ecsTestGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecsTestGame" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="ecsGameEngine" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ecsTestGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecsTestGame" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="ecsGameEngine" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="coreSystems" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ecsTestGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecsTestGame" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="ecsGameEngine" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Rendering" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ecsTestGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecsTestGame" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="ecsGameEngine" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Rendering" type="462c0819:PsiDirectoryNode" />
-              <item name="Clipping" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ecsTestGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecsTestGame" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="ecsGameEngine" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Rendering" type="462c0819:PsiDirectoryNode" />
-              <item name="drawers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ecsTestGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecsTestGame" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="ecsGameEngine" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Rendering" type="462c0819:PsiDirectoryNode" />
-              <item name="drawers" type="462c0819:PsiDirectoryNode" />
-              <item name="draw" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ecsTestGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecsTestGame" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="ecsGameEngine" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Rendering" type="462c0819:PsiDirectoryNode" />
-              <item name="drawers" type="462c0819:PsiDirectoryNode" />
-              <item name="fill" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ecsTestGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecsTestGame" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="ecsGameEngine" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Rendering" type="462c0819:PsiDirectoryNode" />
-              <item name="Materials" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ecsTestGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecsTestGame" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="ecsGameEngine" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Rendering" type="462c0819:PsiDirectoryNode" />
-              <item name="renderingSystems" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ecsTestGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecsTestGame" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="ecsGameEngine" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Rendering" type="462c0819:PsiDirectoryNode" />
-              <item name="renderUtil" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ecsTestGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecsTestGame" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="ecsGameEngine" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Rendering" type="462c0819:PsiDirectoryNode" />
-              <item name="renderUtil" type="462c0819:PsiDirectoryNode" />
-              <item name="Bitmaps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ecsTestGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecsTestGame" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="ecsGameEngine" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Rendering" type="462c0819:PsiDirectoryNode" />
-              <item name="renderUtil" type="462c0819:PsiDirectoryNode" />
-              <item name="Edges" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ecsTestGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecsTestGame" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="ecsGameEngine" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Rendering" type="462c0819:PsiDirectoryNode" />
-              <item name="renderUtil" type="462c0819:PsiDirectoryNode" />
-              <item name="Lerpers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ecsTestGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecsTestGame" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="ecsGameEngine" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Rendering" type="462c0819:PsiDirectoryNode" />
-              <item name="renderUtil" type="462c0819:PsiDirectoryNode" />
-              <item name="Meshes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ecsTestGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecsTestGame" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="ecsGameEngine" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Rendering" type="462c0819:PsiDirectoryNode" />
-              <item name="shaders" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ecsTestGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecsTestGame" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="ecsGameEngine" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ecsTestGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecsTestGame" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="ecsGameEngine" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="Mathf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ecsTestGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecsTestGame" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="ecsGameEngine" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="Mathf" type="462c0819:PsiDirectoryNode" />
-              <item name="Mathf2D" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ecsTestGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecsTestGame" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="ecsGameEngine" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="Mathf" type="462c0819:PsiDirectoryNode" />
-              <item name="Mathf3D" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ecsTestGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecsTestGame" type="47feb1d3:ProjectViewModuleNode" />
               <item name="ecsTestGame" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ecsTestGame" type="b2602c69:ProjectViewProjectNode" />
               <item name="ecsTestGame" type="47feb1d3:ProjectViewModuleNode" />
               <item name="ecsTestGame" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ecsTestGame" type="b2602c69:ProjectViewProjectNode" />
               <item name="ecsTestGame" type="47feb1d3:ProjectViewModuleNode" />
               <item name="ecsTestGame" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ecsTestGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecsTestGame" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="ecsTestGame" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ecsTestGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecsTestGame" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="ecsTestGame" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="systems" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -586,11 +398,12 @@
       <recent name="systems" />
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\domin\OneDrive\Documents\projects\ecsTestGame\res" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="systems" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\domin\OneDrive\Documents\projects\ecsTestGame\res\Models" />
+      <recent name="C:\Users\domin\OneDrive\Documents\projects\ecsTestGame\res" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -643,12 +456,12 @@
       <workItem from="1544851500575" duration="31604000" />
       <workItem from="1544937331194" duration="20108000" />
       <workItem from="1545009927201" duration="1116000" />
-      <workItem from="1545015834680" duration="360000" />
+      <workItem from="1545015834680" duration="1803000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="408080000" />
+    <option name="totallyTimeSpent" value="409523000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -663,7 +476,7 @@
     <frame x="-6" y="-6" width="1381" height="885" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21315193" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21315193" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -785,34 +598,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/awt/image/Raster.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="134" column="19" selection-start-line="134" selection-start-column="19" selection-end-line="134" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/awt/image/VolatileImage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="757">
-          <caret line="218" column="5" lean-forward="true" selection-start-line="218" selection-start-column="5" selection-end-line="218" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/awt/Rectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="818" column="21" selection-start-line="818" selection-start-column="21" selection-end-line="818" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/awt/Graphics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="881" column="28" selection-start-line="881" selection-start-column="28" selection-end-line="881" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/awt/image/SampleModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -904,13 +689,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/PlayerComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1137,7 +915,7 @@
     <entry file="file://$PROJECT_DIR$/../ecsGameEngine/src/Rendering/renderUtil/Bitmaps/BitmapBGR.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#3830#3831#0" expanded="true" />
@@ -1156,7 +934,36 @@
     <entry file="file://$PROJECT_DIR$/../ecsGameEngine/src/Rendering/renderUtil/Meshes/IndexedMesh.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
-          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/PlayerComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MonkeyHead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/models/monkeyNormalisedTriangulated.obj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-765" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/models/INGAME_BASE.OBJ">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/systems/MonkeyHeadSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="26" column="79" selection-start-line="26" selection-start-column="79" selection-end-line="26" selection-end-column="79" />
         </state>
       </provider>
     </entry>

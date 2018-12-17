@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff0de4c3-ef58-468e-b00e-71176ed39cbe" name="Default Changelist" comment="" />
+
+    <list default="true" id="ff0de4c3-ef58-468e-b00e-71176ed39cbe" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/out/production/ecsTestGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ecsTestGame/.idea/workspace.xml" afterDir="false" />
+    </list>
+
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +56,9 @@
           <entry key="class" value="10" />
           <entry key="classpath" value="1" />
           <entry key="groovy" value="1" />
-          <entry key="java" value="1574" />
+
+          <entry key="java" value="1571" />
+
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -65,7 +71,8 @@
         <counts>
           <entry key="CLASS" value="10" />
           <entry key="Eclipse" value="1" />
-          <entry key="JAVA" value="1574" />
+
+          <entry key="JAVA" value="1571" />
           <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
@@ -114,7 +121,8 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
+
         <entry file="file://$PROJECT_DIR$/../ecsGameEngine/src/Rendering/renderUtil/Meshes/IndexedMesh.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="281">
@@ -568,6 +576,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/git/SWENProjectNonCorrupt" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -641,12 +650,14 @@
       <workItem from="1544851500575" duration="31604000" />
       <workItem from="1544937331194" duration="20108000" />
       <workItem from="1545009927201" duration="1116000" />
-      <workItem from="1545015834680" duration="899000" />
+
+      <workItem from="1545015834680" duration="360000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="408619000" />
+
+    <option name="totallyTimeSpent" value="408080000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -661,7 +672,8 @@
     <frame x="-6" y="-6" width="1381" height="885" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21315193" />
+
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21315193" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -671,7 +683,7 @@
       <window_info anchor="bottom" id="Problems" order="1" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" weight="0.32891247" />
-      <window_info active="true" anchor="bottom" id="Run" order="4" visible="true" weight="0.32891247" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.32891247" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.39920425" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
@@ -783,6 +795,21 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/awt/image/Raster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="134" column="19" selection-start-line="134" selection-start-column="19" selection-end-line="134" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/awt/image/VolatileImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="757">
+          <caret line="218" column="5" lean-forward="true" selection-start-line="218" selection-start-column="5" selection-end-line="218" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/awt/Rectangle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -891,6 +918,15 @@
         </state>
       </provider>
     </entry>
+
+    <entry file="file://$PROJECT_DIR$/src/components/PlayerComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+
     <entry file="file://$PROJECT_DIR$/src/systems/PlayerMovement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-110">
@@ -1134,6 +1170,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
           <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+
         </state>
       </provider>
     </entry>

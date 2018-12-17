@@ -1,4 +1,6 @@
 
+
+
 .idea/workspace.xml
 .idea/tasks.xml
 .idea/usage.statistics.xml
@@ -7,7 +9,6 @@
 
 
 .idea/contentModel.xml
-
 
 .idea/dataSources/
 .idea/dataSources.ids
@@ -23,16 +24,22 @@
 
 
 
-
-
+cmake-build-*/
 
 .idea/mongoSettings.xml
+
 
 *.iws
 
 
 out/*
 
+
+
+*.iws
+
+
+out/
 
 .idea_modules/
 
@@ -54,3 +61,4 @@ fabric.properties
 .idea/workspace.xml
 out/production/ecsTestGame/.idea/workspace.xml
 out/production/ecsTestGame/.idea/workspace.xml
+

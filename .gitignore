@@ -1,6 +1,4 @@
 
-
-
 .idea/workspace.xml
 .idea/tasks.xml
 .idea/usage.statistics.xml
@@ -9,6 +7,7 @@
 
 
 .idea/contentModel.xml
+
 
 .idea/dataSources/
 .idea/dataSources.ids
@@ -22,30 +21,17 @@
 .idea/gradle.xml
 .idea/libraries
 
-
-
-cmake-build-*/
-
 .idea/mongoSettings.xml
-
 
 *.iws
 
 
 out/*
 
-
-
-*.iws
-
-
-out/
-
 .idea_modules/
 
 
 atlassian-ide-plugin.xml
-
 
 .idea/replstate.xml
 
@@ -59,7 +45,5 @@ fabric.properties
 
 .idea/caches/build_file_checksums.ser
 .idea/workspace.xml
-out/production/ecsTestGame/.idea/workspace.xml
-out/production/ecsTestGame/.idea/workspace.xml
-
+.idea/workspace.xml
 .idea/workspace.xml

@@ -2,33 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff0de4c3-ef58-468e-b00e-71176ed39cbe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ecsGameEngine/src/core/Worker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ecsGameEngine/src/core/coreSystems/Updateable.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/PlayerComponent.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/systems/PlayerMovement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ecsGameEngine/src/Rendering/drawers/Draw.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ecsGameEngine/src/Rendering/drawers/Draw.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ecsGameEngine/src/Rendering/drawers/draw/DrawCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ecsGameEngine/src/Rendering/drawers/draw/DrawCircle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ecsGameEngine/src/Rendering/drawers/draw/DrawLine2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ecsGameEngine/src/Rendering/drawers/draw/DrawLine2D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ecsGameEngine/src/Rendering/drawers/draw/DrawLine3D.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ecsGameEngine/src/Rendering/drawers/draw/DrawLine3D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ecsGameEngine/src/Rendering/drawers/fill/Rasterizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ecsGameEngine/src/Rendering/drawers/fill/Rasterizer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ecsGameEngine/src/Rendering/renderUtil/Bitmaps/ColorBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ecsGameEngine/src/Rendering/renderUtil/Bitmaps/ColorBuffer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ecsGameEngine/src/Rendering/renderUtil/Gradients/GradientFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ecsGameEngine/src/Rendering/renderUtil/Gradients/Gradients.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ecsGameEngine/src/Rendering/renderUtil/RenderState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ecsGameEngine/src/Rendering/renderUtil/RenderState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ecsGameEngine/src/Rendering/renderUtil/Renderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ecsGameEngine/src/Rendering/renderUtil/Renderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ecsGameEngine/src/Rendering/renderingSystems/RenderSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ecsGameEngine/src/Rendering/renderingSystems/RenderSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ecsGameEngine/src/Rendering/shaders/FlatShader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ecsGameEngine/src/Rendering/shaders/FlatShader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ecsGameEngine/src/Rendering/shaders/GouraudShader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ecsGameEngine/src/Rendering/shaders/GouraudShader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ecsGameEngine/src/Rendering/shaders/PhongShader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ecsGameEngine/src/Rendering/shaders/PhongShader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ecsGameEngine/src/Rendering/shaders/interfaces/IShader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ecsGameEngine/src/Rendering/shaders/interfaces/IShader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ecsGameEngine/src/components/Scene.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ecsGameEngine/src/core/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ecsGameEngine/src/core/Window.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ecsGameEngine/src/core/coreSystems/BaseSystem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ecsGameEngine/src/core/coreSystems/ComponentSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ecsGameEngine/src/core/coreSystems/ComponentSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ecsGameEngine/src/core/coreSystems/ECSSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ecsGameEngine/src/core/coreSystems/ECSSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ecsGameEngine/src/core/coreSystems/EntityGrabberSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ecsGameEngine/src/core/coreSystems/EntityGrabberSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ecsGameEngine/src/core/coreSystems/EntitySystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ecsGameEngine/src/core/coreSystems/EntitySystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ecsGameEngine/src/core/coreSystems/InputSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ecsGameEngine/src/core/coreSystems/InputSystem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ecsTestGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ecsTestGame/.idea/workspace.xml" afterDir="false" />
@@ -38,8 +14,9 @@
       <change beforePath="$PROJECT_DIR$/out/production/ecsTestGame/components/Camera.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ecsTestGame/components/Camera.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ecsTestGame/components/InputComponent.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ecsTestGame/components/RenderableMesh.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ecsTestGame/components/RenderableMesh.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ecsTestGame/components/Scene.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ecsTestGame/components/Transform.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ecsTestGame/core/Window.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ecsTestGame/core/Window.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ecsTestGame/core/Window.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ecsTestGame/listners/EntityListner.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ecsTestGame/listners/MultiEntityListner.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ecsTestGame/listners/SingleEntityListner.class" beforeDir="false" />
@@ -120,18 +97,18 @@
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="2" />
-          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.18" value="2" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="37" />
-          <entry key="java" value="51466" />
+          <entry key="java" value="51480" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -141,12 +118,12 @@
           <entry key="class" value="10" />
           <entry key="classpath" value="1" />
           <entry key="groovy" value="1" />
-          <entry key="java" value="1565" />
+          <entry key="java" value="1566" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="51466" />
+          <entry key="JAVA" value="51480" />
           <entry key="PLAIN_TEXT" value="37" />
         </counts>
       </usages-collector>
@@ -154,7 +131,7 @@
         <counts>
           <entry key="CLASS" value="10" />
           <entry key="Eclipse" value="1" />
-          <entry key="JAVA" value="1565" />
+          <entry key="JAVA" value="1566" />
           <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
@@ -165,8 +142,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../ecsGameEngine/src/core/Window.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="99" column="23" selection-start-line="99" selection-start-column="23" selection-end-line="99" selection-end-column="23" />
+            <state relative-caret-position="102">
+              <caret line="76" column="10" selection-start-line="76" selection-start-column="10" selection-end-line="76" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -174,7 +151,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../ecsGameEngine/src/Rendering/renderingSystems/RenderSystem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
+            <state relative-caret-position="272">
               <caret line="30" column="90" selection-start-line="30" selection-start-column="90" selection-end-line="30" selection-end-column="90" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -196,7 +173,7 @@
         <entry file="file://$PROJECT_DIR$/../ecsGameEngine/src/core/coreSystems/InputSystem.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -214,7 +191,7 @@
         <entry file="file://$PROJECT_DIR$/../ecsGameEngine/src/core/coreSystems/EntitySystem.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="527">
-              <caret line="40" column="22" lean-forward="true" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+              <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -231,8 +208,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../ecsGameEngine/src/core/coreSystems/ECSSystem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
-              <caret line="48" column="17" lean-forward="true" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+            <state relative-caret-position="714">
+              <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -422,8 +399,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -718,11 +695,12 @@
       <workItem from="1544838996690" duration="6339000" />
       <workItem from="1544851500575" duration="31604000" />
       <workItem from="1544937331194" duration="20108000" />
+      <workItem from="1545009927201" duration="1116000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="406604000" />
+    <option name="totallyTimeSpent" value="407720000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -737,7 +715,7 @@
     <frame x="-6" y="-6" width="1381" height="885" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20710507" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2101285" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -747,7 +725,7 @@
       <window_info anchor="bottom" id="Problems" order="1" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" weight="0.32891247" />
-      <window_info anchor="bottom" id="Run" order="4" weight="0.32891247" />
+      <window_info active="true" anchor="bottom" id="Run" order="4" visible="true" weight="0.32891247" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.39920425" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
@@ -755,7 +733,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32891247" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50037795" side_tool="true" weight="0.32891247" />
-      <window_info anchor="bottom" id="JProfiler" order="12" visible="true" weight="0.32891247" />
+      <window_info anchor="bottom" id="JProfiler" order="12" weight="0.32891247" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.2494331" />
@@ -859,17 +837,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../ecsGameEngine/src/Rendering/shaders/ShaderUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="78" column="20" selection-start-line="78" selection-start-column="20" selection-end-line="78" selection-end-column="20" />
-          <folding>
-            <element signature="e#2505#2506#0" expanded="true" />
-            <element signature="e#2559#2560#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/sun/java2d/StateTrackableDelegate.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -998,13 +965,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ecsGameEngine/src/components/Scene.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" column="48" lean-forward="true" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../ecsGameEngine/src/components/Scene.java" />
     <entry file="file://$PROJECT_DIR$/../ecsGameEngine/src/components/Tag.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1160,69 +1121,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ecsGameEngine/src/core/coreSystems/InputSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ecsGameEngine/src/core/coreSystems/EntitySystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="40" column="22" lean-forward="true" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ecsGameEngine/src/core/coreSystems/GameSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ecsGameEngine/src/core/Worker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ecsGameEngine/src/core/EntityFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ecsGameEngine/src/core/coreSystems/EntityGrabberSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="458">
           <caret line="486" column="54" selection-start-line="486" selection-start-column="48" selection-end-line="486" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ecsGameEngine/src/Rendering/renderingSystems/RenderSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="30" column="90" selection-start-line="30" selection-start-column="90" selection-end-line="30" selection-end-column="90" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ecsGameEngine/src/core/coreSystems/ECSSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="48" column="17" lean-forward="true" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1233,10 +1135,80 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../ecsGameEngine/src/Rendering/renderingSystems/RenderSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="30" column="90" selection-start-line="30" selection-start-column="90" selection-end-line="30" selection-end-column="90" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ecsGameEngine/src/core/Worker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ecsGameEngine/src/core/coreSystems/InputSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ecsGameEngine/src/core/EntityFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ecsGameEngine/src/core/coreSystems/EntitySystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ecsGameEngine/src/core/coreSystems/GameSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ecsGameEngine/src/core/coreSystems/ECSSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ecsGameEngine/src/core/coreSystems/EntityGrabberSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/awt/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1">
+          <caret line="7628" column="18" selection-start-line="7628" selection-start-column="18" selection-end-line="7628" selection-end-column="18" />
+          <folding>
+            <element signature="e#271883#271884#0" expanded="true" />
+            <element signature="e#271930#271931#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../ecsGameEngine/src/core/Window.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="99" column="23" selection-start-line="99" selection-start-column="23" selection-end-line="99" selection-end-column="23" />
+        <state relative-caret-position="102">
+          <caret line="76" column="10" selection-start-line="76" selection-start-column="10" selection-end-line="76" selection-end-column="10" />
         </state>
       </provider>
     </entry>

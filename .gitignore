@@ -1,6 +1,4 @@
 
-
-
 .idea/workspace.xml
 .idea/tasks.xml
 .idea/usage.statistics.xml
@@ -13,7 +11,7 @@ bin/
 .idea/contentModel.xml
 
 
-.ideadataSources/
+.idea/dataSources/
 .idea/dataSources.ids
 .idea/dataSources.local.xml
 .idea/sqlDataSources.xml
@@ -25,27 +23,16 @@ bin/
 .idea/gradle.xml
 .idea/libraries
 
-
-
-cmake-build-*/
-
-
 .idea/mongoSettings.xml
-
 
 *.iws
 
 
-out/
-
 .idea_modules/
-
 
 atlassian-ide-plugin.xml
 
-
 .idea/replstate.xml
-
 
 com_crashlytics_export_strings.xml
 crashlytics.properties
@@ -54,4 +41,8 @@ fabric.properties
 
 
 .idea/httpRequests
+
+
+.idea/caches/build_file_checksums.ser
+
 

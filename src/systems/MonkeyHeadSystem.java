@@ -1,7 +1,7 @@
 package systems;
 
 import Rendering.Materials.MaterialPresets;
-import Rendering.renderUtil.RenderMode;
+import Rendering.Materials.RenderMode;
 import Rendering.shaders.GouraudShader;
 import components.Component;
 import components.MonkeyHead;
@@ -21,15 +21,23 @@ public class MonkeyHeadSystem extends GameSystem {
     public final static String facePath = "res\\models/male_head_obj.obj";
     public final static String monkeyHeadPath = "res\\models/monkeyNormalisedTriangulated.obj";
 
-    //    public final static String texturePath = "C:\\Users\\domin\\OneDrive\\Documents\\projects\\ecsTestGame\\res/Wall.png";
+    public final static String texturePath = "res/Wall.png";
+//    public final static String texturePath = "res/TextureSizePerformanceTesting64x64.png";
+
 //    public final static String texturePath = "C:\\Users\\domin\\OneDrive\\Documents\\projects\\ecsTestGame\\res/Grass.png";
-    public final static String texturePath = "res/Magic_Projectile.png";
+//    public final static String texturePath = "res/Magic_Projectile.png";
 //    public final static String texturePath = "C:\\Users\\domin\\OneDrive\\Documents\\projects\\ecsTestGame\\res/Clock.png";
 
 
     public MonkeyHeadSystem() {
         super(Arrays.asList(MonkeyHead.class, TransformComponent.class));
-        createMonkeyHead();
+        createMonkeyHead(new Vector3D(10f, 0f, -70f));
+        createMonkeyHead(new Vector3D(-10f, 0f, -70f));
+        createMonkeyHead(new Vector3D(25f, 0f, -70f));
+
+        createMonkeyHead(new Vector3D(10f, -20f, -70f));
+        createMonkeyHead(new Vector3D(-10f, -20f, -70f));
+        createMonkeyHead(new Vector3D(25f, -20f, -70f));
     }
 
     @Override
@@ -43,17 +51,15 @@ public class MonkeyHeadSystem extends GameSystem {
     }
 
     private void doMonkeyStuff(Transform transform) {
-        Quaternion rot = new Quaternion(Mathf.toRadians(10f) * Time.getDeltaTime(), Vector3D.UP);
+        Quaternion rot = new Quaternion(Mathf.toRadians(2f) * Time.getDeltaTime(), Vector3D.UP);
 //        transform.rotate(rot);
-        transform.translate(0f * Time.getDeltaTime(), 0f, 0f);
     }
 
-    public void createMonkeyHead() {
-
+    public void createMonkeyHead(Vector3D offset) {
         Transform transform = new Transform();
 //        transform.rotate((float) Math.toRadians(200), Vector3D.UP);
-        transform.scale(0.1f, 0.1f, 0.1f);
-        transform.translate(0f, 0f, -250f);
+        transform.setScale(0.5f, 0.5f, 0.5f);
+        transform.translate(offset);
         RenderableMesh renderableMesh = new RenderableMesh(null, null);
         renderableMesh.renderMode = RenderMode.MESH;
         renderableMesh.material = MaterialPresets.material1;
@@ -61,7 +67,6 @@ public class MonkeyHeadSystem extends GameSystem {
         renderableMesh.material.setShader(new GouraudShader());
         EntityFactory.createEntity(facePath, texturePath, renderableMesh, Arrays.asList(renderableMesh,
                 new TransformComponent(transform), new MonkeyHead()));
-
     }
 
 }

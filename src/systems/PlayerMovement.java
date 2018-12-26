@@ -4,6 +4,7 @@ import Rendering.renderUtil.RenderState;
 import components.Camera;
 import core.coreSystems.InputSystem;
 import core.coreSystems.Time;
+import util.Mathf.Mathf;
 import util.Mathf.Mathf3D.Matrix4x4;
 import util.Mathf.Mathf3D.Transform;
 import util.Mathf.Mathf3D.Vector3D;
@@ -12,13 +13,12 @@ import java.awt.event.KeyEvent;
 
 public class PlayerMovement {
     private float runSpeed = 50f;
-    private float rotSpeed = .7f;
+    private float rotSpeed = .7f/*Mathf.PI/2f*/;
 
     public void updateTransforms(Transform transform) {
         // rotate around local Y
         if (InputSystem.keysPressed[KeyEvent.VK_E]) {
             transform.rotate(rotSpeed * Time.getDeltaTime(), transform.getUpDir());
-
         }
         if (InputSystem.keysPressed[KeyEvent.VK_Q]) {
             transform.rotate(-rotSpeed * Time.getDeltaTime(), transform.getUpDir());

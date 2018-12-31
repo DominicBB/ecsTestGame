@@ -1,14 +1,9 @@
 package application;
 
-import Rendering.renderingSystems.RenderSystem;
-import components.*;
-import core.Window;
+import Rendering.renderUtil.RenderState;
 import core.coreSystems.ECSSystem;
-import systems.*;
-
-
-import java.io.IOException;
-import java.util.Arrays;
+import systems.MonkeyHeadSystem;
+import systems.PlayerSystem;
 
 public class TestApp extends ECSSystem {
     @Override
@@ -20,13 +15,13 @@ public class TestApp extends ECSSystem {
         super();
         createSystems();
         start();
+        RenderState.lightingState.ambientColor.add(0.5f, .5f, .5f, 0f);
     }
 
     private void createSystems() {
         new PlayerSystem();
         new MonkeyHeadSystem();
     }
-
 
 
 }

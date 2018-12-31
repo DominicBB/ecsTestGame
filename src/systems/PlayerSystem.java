@@ -1,15 +1,12 @@
 package systems;
 
 import Rendering.renderUtil.RenderState;
-import com.sun.org.apache.xerces.internal.parsers.AbstractXMLDocumentParser;
 import components.Component;
 import components.PlayerComponent;
 import components.TransformComponent;
-import core.EntityFactory;
 import core.coreSystems.EntitySystem;
 import core.coreSystems.GameSystem;
 import core.coreSystems.Time;
-import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
 import util.Mathf.Mathf3D.Quaternion;
 import util.Mathf.Mathf3D.Vector3D;
 

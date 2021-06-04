@@ -1,12 +1,12 @@
 package systems;
 
-import Rendering.Materials.Material;
-import Rendering.Materials.MaterialPresets;
-import Rendering.renderUtil.Bitmaps.BitmapABGR;
-import Rendering.renderUtil.Bitmaps.Texture;
-import Rendering.renderUtil.Meshes.IndexedMesh;
-import Rendering.renderUtil.Meshes.RenderableMeshFactory;
-import Rendering.shaders.Shaders;
+import rendering.materials.Material;
+import rendering.materials.MaterialPresets;
+import rendering.renderUtil.bitmaps.BitmapABGR;
+import rendering.renderUtil.bitmaps.Texture;
+import rendering.renderUtil.meshes.IndexedMesh;
+import rendering.renderUtil.meshes.RenderableMeshFactory;
+import rendering.shaders.Shaders;
 import components.Component;
 import components.MonkeyHead;
 import components.RenderableMesh;
@@ -14,10 +14,10 @@ import components.TransformComponent;
 import core.EntityFactory;
 import core.coreSystems.GameSystem;
 import core.coreSystems.Time;
-import util.Mathf.Mathf;
-import util.Mathf.Mathf3D.Quaternion;
-import util.Mathf.Mathf3D.Transform;
-import util.Mathf.Mathf3D.Vector3D;
+import util.mathf.Mathf;
+import util.mathf.Mathf3D.Quaternion;
+import util.mathf.Mathf3D.Transform;
+import util.mathf.Mathf3D.Vec4f;
 
 import java.io.IOException;
 import java.util.Arrays;
@@ -47,7 +47,7 @@ public class MonkeyHeadSystem extends GameSystem {
         m2.setShader(Shaders.FLAT_SHADER);
         m3.setShader(Shaders.FLAT_SHADER);
 
-        m3.setColor(new Vector3D(167f, 90f, 111f));
+        m3.setColor(new Vec4f(167f, 90f, 111f));
         try {
             Texture texture = new Texture(new BitmapABGR(texturePath));
             m1.setTexture(texture);
@@ -55,14 +55,14 @@ public class MonkeyHeadSystem extends GameSystem {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        createMonkeyHead(new Vector3D(10f, 0f, -70f), indexedMesh, m1);
-        createMonkeyHead(new Vector3D(-10f, 0f, -70f), indexedMesh, m2);
-        createMonkeyHead(new Vector3D(25f, 0f, -70f), indexedMesh, m1);
-        createActualMonkeyHead(new Vector3D(0f, 0f, -10f), indexedMeshMonkey, m3);
+        createMonkeyHead(new Vec4f(10f, 0f, -70f), indexedMesh, m1);
+        createMonkeyHead(new Vec4f(-10f, 0f, -70f), indexedMesh, m2);
+        createMonkeyHead(new Vec4f(25f, 0f, -70f), indexedMesh, m1);
+        createActualMonkeyHead(new Vec4f(0f, 0f, -10f), indexedMeshMonkey, m3);
 
-        createMonkeyHead(new Vector3D(10f, -20f, -70f), indexedMesh, m2);
-        createMonkeyHead(new Vector3D(-10f, -20f, -70f), indexedMesh, m1);
-        createMonkeyHead(new Vector3D(25f, -20f, -70f), indexedMesh, m2);
+        createMonkeyHead(new Vec4f(10f, -20f, -70f), indexedMesh, m2);
+        createMonkeyHead(new Vec4f(-10f, -20f, -70f), indexedMesh, m1);
+        createMonkeyHead(new Vec4f(25f, -20f, -70f), indexedMesh, m2);
 
     }
 
@@ -77,7 +77,7 @@ public class MonkeyHeadSystem extends GameSystem {
     }
 
     private void doMonkeyStuff(Transform transform) {
-        Quaternion rot = new Quaternion(Mathf.toRadians(2f) * Time.getDeltaTime(), Vector3D.UP);
+        Quaternion rot = new Quaternion(Mathf.toRadians(2f) * Time.getDeltaTime(), Vec4f.UP);
 //        transform.rotate(rot);
     }
 
@@ -86,7 +86,7 @@ public class MonkeyHeadSystem extends GameSystem {
     }
 
 
-    public void createMonkeyHead(Vector3D offset, IndexedMesh indexedMesh, Material material) {
+    public void createMonkeyHead(Vec4f offset, IndexedMesh indexedMesh, Material material) {
         Transform transform = new Transform();
 //        transform.rotate((float) Math.toRadians(200), Vector3D.UP);
         transform.setScale(0.5f, 0.5f, 0.5f);
@@ -96,7 +96,7 @@ public class MonkeyHeadSystem extends GameSystem {
                 new TransformComponent(transform), new MonkeyHead()));
     }
 
-    public void createActualMonkeyHead(Vector3D offset, IndexedMesh indexedMesh, Material material) {
+    public void createActualMonkeyHead(Vec4f offset, IndexedMesh indexedMesh, Material material) {
         Transform transform = new Transform();
 //        transform.rotate((float) Math.toRadians(200), Vector3D.UP);
         transform.translate(offset);

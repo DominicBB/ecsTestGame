@@ -1,20 +1,20 @@
 package systems;
 
-import Rendering.renderUtil.RenderState;
+import rendering.renderUtil.RenderState;
 import components.Component;
 import components.PlayerComponent;
 import components.TransformComponent;
 import core.coreSystems.EntitySystem;
 import core.coreSystems.GameSystem;
 import core.coreSystems.Time;
-import util.Mathf.Mathf3D.Quaternion;
-import util.Mathf.Mathf3D.Vector3D;
+import util.mathf.Mathf3D.Quaternion;
+import util.mathf.Mathf3D.Vec4f;
 
 import java.util.Arrays;
 
 public class PlayerSystem extends GameSystem {
     private PlayerMovement playerMovement;
-    private Vector3D axis = Vector3D.newUp();
+    private Vec4f axis = Vec4f.newUp();
 
     public PlayerSystem() {
         super(Arrays.asList(PlayerComponent.class, TransformComponent.class));

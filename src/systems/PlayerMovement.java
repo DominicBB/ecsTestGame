@@ -1,13 +1,13 @@
 package systems;
 
-import Rendering.renderUtil.RenderState;
+import rendering.renderUtil.RenderState;
 import components.Camera;
 import core.coreSystems.InputSystem;
 import core.coreSystems.Time;
-import util.Mathf.Mathf;
-import util.Mathf.Mathf3D.Matrix4x4;
-import util.Mathf.Mathf3D.Transform;
-import util.Mathf.Mathf3D.Vector3D;
+import util.mathf.Mathf;
+import util.mathf.Mathf3D.Matrix4x4;
+import util.mathf.Mathf3D.Transform;
+import util.mathf.Mathf3D.Vec4f;
 
 import java.awt.event.KeyEvent;
 
